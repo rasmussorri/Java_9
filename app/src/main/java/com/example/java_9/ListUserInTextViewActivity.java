@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class ListUserInTextViewActivity extends AppCompatActivity {
 
-    private TextView usersTextView;
+    private TextView textViewSavedUsers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class ListUserInTextViewActivity extends AppCompatActivity {
             return insets;
         });
 
-        usersTextView = findViewById(R.id.usersTextView);
+        textViewSavedUsers = findViewById(R.id.textViewSavedUsers);
 
         loadUsers();
     }
@@ -47,7 +47,7 @@ public class ListUserInTextViewActivity extends AppCompatActivity {
                     .append("\n\n");
         }
 
-        usersTextView.setText(usersDisplay.toString());
+        textViewSavedUsers.setText(usersDisplay.toString());
     }
 
 }

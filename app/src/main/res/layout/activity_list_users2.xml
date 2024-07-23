@@ -8,11 +8,11 @@
     tools:context=".ListUserInTextViewActivity">
 
     <TextView
-        android:id="@+id/usersTextView"
+        android:id="@+id/textViewSavedUsers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="Tekstiä"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
